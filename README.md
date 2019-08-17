@@ -16,3 +16,5 @@ The `.bin` file is just the compiled and linked binary generated from the `.asm`
 ./buildTest.sh shellCodeHelloWorld.asm
 ```
 
+The x86 64bits systems used `syscall` while on the 32bits architecture it is interrupt `0x80`.
+The system calls id to be used in the asm code can be found into [`/usr/include/x86_64-linux-gnu/asm/unistd_64.h`](http://lxr.linux.no/linux+v3.2/arch/x86/include/asm/unistd_64.h).
