@@ -18,4 +18,4 @@ The `.bin` file is just the compiled and linked binary generated from the `.asm`
 
 The x86 64bits systems uses `syscall` while on the 32bits architecture it is interrupt `0x80`.
 The 64bits system calls id to be used in the asm code can be found into [`/usr/include/x86_64-linux-gnu/asm/unistd_64.h`](http://lxr.linux.no/linux+v3.2/arch/x86/include/asm/unistd_64.h).
-A good reference for the asm developement can be found [here](https://www.felixcloutier.com/x86/).
+A good reference for the asm developement can be found [here](https://www.felixcloutier.com/x86/) or [here](http://www.mathemainzel.info/files/x86asmref.html).
